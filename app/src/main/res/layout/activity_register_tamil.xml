@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgapp"
+    tools:context=".RegisterTamil">
+
+    <ImageView
+        android:id="@+id/reglogo2"
+        android:layout_width="90dp"
+        android:layout_height="56dp"
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@mipmap/logo" />
+
+    <TextView
+        android:id="@+id/regtextt1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/reglogo2"
+        android:layout_marginTop="9dp"
+        android:gravity="center"
+        android:text="உங்கள் கைபேசி எண்ணை உள்ளிடவும்"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+    <EditText
+        android:id="@+id/tamilno"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/MyEditTextStyle"
+        android:layout_below="@id/reglogo2"
+        android:layout_marginTop="54dp"
+        android:digits="0123456789"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:hint="தொலைபேசி எண்"
+        android:inputType="phone"
+        android:maxLength="10" />
+
+    <Button
+        android:id="@+id/regsubmit2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tamilno"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="18dp"
+        android:text="சமர்ப்பிக்க"
+        android:textColor="#FFFFFF"
+        android:theme="@style/MyButton" />
+
+    <TextView
+        android:id="@+id/regtextt2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/regtextt3"
+        android:layout_marginBottom="0dp"
+        android:gravity="center"
+        android:text="சீஷா காருண்யா மருத்துவமனை"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+    <TextView
+        android:id="@+id/regtextt3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:text="கருத்து படிவம்"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+</RelativeLayout>

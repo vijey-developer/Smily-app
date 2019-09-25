@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgapp"
+
+    tools:context="com.seesha.feedbackform.MainActivity">
+
+    <TextView
+        android:id="@+id/textm4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textm3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Select your Language"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#000000"
+        tools:layout_editor_absoluteX="385dp"
+        tools:layout_editor_absoluteY="336dp" />
+
+    <Button
+        android:id="@+id/Tamil"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textm4"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="-89dp"
+        android:layout_marginRight="-89dp"
+        android:layout_toStartOf="@+id/textm4"
+        android:layout_toLeftOf="@+id/textm4"
+        android:text="தமிழ்"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="#000000"
+        tools:layout_editor_absoluteX="385dp"
+        tools:layout_editor_absoluteY="383dp" />
+
+    <Button
+        android:id="@+id/English"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textm4"
+        android:layout_alignEnd="@+id/textm4"
+        android:layout_alignRight="@+id/textm4"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginRight="2dp"
+        android:text="English"
+        tools:layout_editor_absoluteX="527dp"
+        tools:layout_editor_absoluteY="383dp" />
+
+    <ImageView
+        android:id="@+id/logo1"
+        android:layout_width="153dp"
+        android:layout_height="93dp"
+        app:srcCompat="@drawable/logo"
+        android:layout_centerHorizontal="true"
+        tools:layout_editor_absoluteX="448dp"
+        tools:layout_editor_absoluteY="97dp" />
+
+    <TextView
+        android:id="@+id/textm2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textm1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:text="Community Hospitall"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="#010F86"
+        tools:layout_editor_absoluteX="418dp"
+        tools:layout_editor_absoluteY="275dp" />
+
+    <TextView
+        android:id="@+id/textm1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/logo1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Seesha Karunya"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#010F86"
+        tools:layout_editor_absoluteX="418dp"
+        tools:layout_editor_absoluteY="233dp" />
+
+    <TextView
+        android:id="@+id/textm3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textm2"
+        android:layout_marginTop="5dp"
+        android:text="Feedback Form"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>

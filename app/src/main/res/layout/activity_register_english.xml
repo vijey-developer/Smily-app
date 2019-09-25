@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgapp"
+    tools:context=".RegisterEnglish">
+
+    <ImageView
+        android:id="@+id/reglogo1"
+        android:layout_width="90dp"
+        android:layout_height="56dp"
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@mipmap/logo" />
+
+    <TextView
+        android:id="@+id/regtexte1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/reglogo1"
+        android:layout_marginTop="9dp"
+        android:gravity="center"
+        android:text="Please Enter Your Mobile Number"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+    <EditText
+        android:id="@+id/englishno"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/MyEditTextStyle"
+        android:layout_below="@id/reglogo1"
+        android:layout_marginTop="54dp"
+        android:digits="0123456789"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:hint="Phone Number"
+        android:inputType="phone"
+        android:maxLength="10" />
+    <Button
+        android:id="@+id/regsubmit1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/englishno"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="18dp"
+        android:text="Submit"
+        android:textColor="#FFFFFF"
+        android:theme="@style/MyButton" />
+
+    <TextView
+        android:id="@+id/regtexte2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/regtexte3"
+        android:layout_marginBottom="0dp"
+        android:gravity="center"
+        android:text="Seesha Karunya Community Hospital"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+    <TextView
+        android:id="@+id/regtexte3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:text="Feedback Form"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+
+
+</RelativeLayout>
